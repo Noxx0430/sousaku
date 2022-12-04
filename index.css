@@ -361,7 +361,7 @@ textarea:focus{
     z-index: 10;
 }
 .in_body{
-    width: calc(100% - 90px);
+    width: calc(100% - 60px);
     margin: 0 auto 0;
 }
 
