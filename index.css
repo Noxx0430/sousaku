@@ -353,7 +353,7 @@ textarea:focus{
 .view_body{
     position: relative;
     top: 120px;
-    width: 940px;
+    width: calc(100% - 50px);
     margin: 0 auto 0;
     padding-bottom: 20px;
     background: #353C3E;
@@ -361,7 +361,7 @@ textarea:focus{
     z-index: 10;
 }
 .in_body{
-    width: 900px;
+    width: calc(100% - 90px);
     margin: 0 auto 0;
 }
 
