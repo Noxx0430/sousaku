@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <link href="index.css" rel="stylesheet" type="text/css">
+        <title></title>
+    </head>
+    <body>
+
+        <div class="edit_area">
+            <div class="edit_head">
+                <span>編集</span>
+                <div class="line"></div>
+                <span>Edit</span>
+            </div>
+            <div class="edit_header_area">
+                <input type="button" value="全消去" class="edit_reset_button">
+                <input type="button" value="完了" class="edit_finish_button">
+            </div>
+            <div class="title_area">
+                <span>タイトル</span><input type="text" class="edit_title">
+            </div>
+            <div class="check_area">
+                <input type="checkbox" class="edit_checkbox"><span>大見出しをページタイトルにする。</span>
+            </div>
+            <div class="h1_area">
+                <span>大見出し</span><input type="text" class="edit_h1">
+            </div>
+            <div class="ruby_area">
+                <span>読み仮名</span><input type="text" class="edit_ruby">
+            </div>
+            <div class="exm_area">
+                <span>説明文（60文字以内）</span><br>
+                <textarea class="edit_exm" maxlength="60"></textarea>
+            </div>
+            <div class="profile_area">
+                <span>プロフィール</span><br>
+                <textarea class="table_left"></textarea>
+                <textarea class="table_right"></textarea>
+            </div>
+            <div class="content_area">
+                <span>本文</span><br>
+                <textarea class="edit_content"></textarea>
+            </div>
+        </div>
+
+        <div class="view_area">
+            <div class="view_header">
+            </div>
+            <div class="view_menubox">
+                <div class="home_menu menu">HOME</div><div class="content_menu menu">CONTENT</div><div class="reload_menu menu">RELOAD</div><div class="top_menu menu">TOP</div><div class="edit_menu menu">EDIT</div>
+            </div>
+            <div class="tocbox"></div>
+
+            <div class="view_body"><div class="in_body">
+                <div class="view_h1"></div>
+                <p class="view_ruby"></p>
+                <p class="view_exm"></p>
+                <div class="table_area"></div>
+                <div class="view_content"></div>
+            <div></div>
+        </div>
+
+        <div class="hide">
+            <div class="url1"></div>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>
